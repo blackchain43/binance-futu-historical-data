@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "binance_historical_data"
+version = "0.1.9"
+description = ""
+authors = ["stanislav <stas.prokopiev@gmail.com>"]
+readme = "README.rst"
+license="MIT"
+repository = "https://github.com/stas-prokopiev/binance_historical_data"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tqdm = "^4.62.3"
+char = "^0.1.2"
+mpire = "^2.3.3"
+ipywidgets = "^7.6.5"
+python-dotenv = "^0.21.0"
+pandas = "^1.5.2"
+pydantic = "^1.10.2"
+pymongo = "^4.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.8"]
+build-backend = "poetry.core.masonry.api"
